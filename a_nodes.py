@@ -1,15 +1,15 @@
 # WORKSPACE INITIAL CONFIGURATION
 
 # ścieżki ************************************************************************
-workspace_path = r"C:\Users\piotr\Documents\pw\5\analizy\Project1\workspace.gdb"
+workspace_path = r"Project1\workspace.gdb"
 
-gminy_prg_path = r"C:\Users\piotr\Documents\pw\5\analizy\Project1\dane\02_GraniceAdministracyjne\A03_Granice_gmin.shp"
+gminy_prg_path = r"Project1\dane\02_GraniceAdministracyjne\A03_Granice_gmin.shp"
 gmina_name = "Świeradów-Zdrój"; gmina_name_field = "JPT_NAZWA_"
 
-bdot_folders_paths_list = [r"C:\Users\piotr\Documents\pw\5\analizy\Project1\dane\0210_SHP", r"C:\Users\piotr\Documents\pw\5\analizy\Project1\dane\0212_SHP"]
+bdot_folders_paths_list = [r"Project1\dane\0210_SHP", r"Project1\dane\0212_SHP"]
 
-out_shp_krawedzie = r"C:\Users\piotr\Documents\pw\5\analizy\Project1\dane\aGraf\krawedzie.shp"
-out_shp_start_nd = r"C:\Users\piotr\Documents\pw\5\analizy\Project1\dane\aGraf\wezly_start.shp"
+out_shp_krawedzie = r"Project1\dane\aGraf\krawedzie.shp"
+out_shp_start_nd = r"Project1\dane\aGraf\wezly_start.shp"
 
 # !                 ______________________________________________________________
 distance = 10200    # jak daleko szukać węzłów (m)
