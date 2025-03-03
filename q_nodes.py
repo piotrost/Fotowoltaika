@@ -3,9 +3,9 @@
 # qneat3 plugin required
 
 # paths
-input_edges = 'C:/Users/piotr/Documents/pw/5/analizy/Project1/dane/aGraf/krawedzie.shp'
-start_nodes = 'C:/Users/piotr/Documents/pw/5/analizy/Project1/dane/aGraf/wezly_start.shp'
-output = 'C:/Users/piotr/Documents/pw/5/analizy/Project1/dane/qWezly/qWezly.tif'
+input_edges = 'Project1/dane/aGraf/krawedzie.shp'
+start_nodes = 'Project1/dane/aGraf/wezly_start.shp'
+output = 'Project1/dane/qWezly/qWezly.tif'
 
 processing.run(
     "qneat3:isoareaasinterpolationfromlayer",
